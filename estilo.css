@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin:0;   
+}
+h1{
+    text-align: center;
+    background-color: #080436;
+    color: #b09a96;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    padding: 20px;
+}
+h3{
+    text-align: center; 
+    color: #080436;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;  
+}
+.columna{
+    text-align: center;
+    margin: 10px;
+}
+.juegos{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    background-color: #a2b4b8;
+    padding: 30px;
+}
+img{
+    width: 170px;
+    height: 170 px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contenido{
+    display: flex;
+    margin: 30px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    text-align:justify;
+    color: #080436;
+
+}
+.articulos{
+    width: 75%;
+    border-right: 3px solid #080436;
+}
+.secciones{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    background-color: #a2b4b8;
+    padding: 30px;
+    
+}
+.menu-secundario{
+    width:25%;
+    margin-top: 60 px;  
+}
+.menu-secundario a{
+    display: block;
+    text-align: center;
+    color: #080436;
+    margin-bottom: 20px;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+
+}
+.alinear-izquierda{
+    float: left;
+    margin-right: 15px;
+}
+.alinear-derecha{
+    float: right;
+}
